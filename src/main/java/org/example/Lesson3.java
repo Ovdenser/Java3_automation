@@ -25,7 +25,7 @@ public class Lesson3 {
     }
 
     public static void test1(WebDriver driver) {
-        driver.get("https://.diary.ru");
+        driver.get("https://diary.ru");
         WebElement input = driver.findElement(By.id("drop-login"));
         input.click();
         WebElement login = driver.findElement(By.id("usrlog2"));
@@ -43,7 +43,7 @@ public class Lesson3 {
     }
 
     public static void test2(WebDriver driver) {
-        driver.get("https://.diary.ru");
+        driver.get("https://diary.ru");
         WebElement input = driver.findElement(By.id("drop-login"));
         input.click();
         WebElement login = driver.findElement(By.id("usrlog2"));
